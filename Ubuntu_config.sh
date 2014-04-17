@@ -14,7 +14,15 @@ sudo apt-get update
 
 # software set up
 echo 'software set up'
-sudo apt-get install chromium-browser flashplugin-installer vim ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4 multiget subversion
+sudo apt-get install chromium-browser flashplugin-installer vim ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4 subversion
+
+# download tools
+# follow the webpage: http://blog.csdn.net/luojiming1990/article/details/9078447 to complete the configuration
+sudo add-apt-repository ppa:plushuang-tw/uget-stable
+sudo add-apt-repository ppa:t-tujikawa/ppa
+sudo apt-get update
+sudo apt-get install uget aria2
+echo "Next: configure the uget to enable aria2 plugin"
 
 # input method config
 im-switch -s ibus
