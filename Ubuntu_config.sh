@@ -53,7 +53,7 @@ cp config/.vimrc ~/.vimrc
 # software upgrade
 sudo apt-get upgrade
 
-# github config
+# github config:https://help.github.com/articles/set-up-git
 
 # install Matlab
 # install Matlab-support for linux
