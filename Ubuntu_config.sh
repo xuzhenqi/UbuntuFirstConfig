@@ -63,6 +63,9 @@ sudo apt-get install matlab-support
 
 # install Pylearn2
 
+# install numpy scikit-learn matplotlib
+##http://scikit-learn.org/stable/install.html
+
 # install ssh-server
 sudo apt-get install openssh-server
 sudo service ssh start
