@@ -14,7 +14,7 @@ sudo apt-get update
 
 # software set up
 echo 'software set up'
-sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc virtualbox git
+sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc virtualbox git indicator-multiload
 
 # goagent configure
 #1. Chromium:http://www.i7086.com/gugelanqichromeshezhigoagentyingyongtuwenjiaocheng
