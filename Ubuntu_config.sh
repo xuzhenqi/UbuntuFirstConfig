@@ -82,3 +82,9 @@ sudo add-apt-repository ppa:ubuntu-wine/ppa
 sudo apt-get update
 sudo apt-get install wine1.7
 
+# gdb cpp stl support
+# http://sourceware.org/gdb/wiki/STLSupport
+# edit /path-to-gcss/python/libstdcxx/v6/__init__.py 
+# on line 19: from .printers ...
+# edit ~/.gdbinit
+# on line 6: comment this line.
