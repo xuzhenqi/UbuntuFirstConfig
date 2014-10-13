@@ -1,13 +1,14 @@
 #北京理工大学
-deb http://mirror.bjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
-deb http://mirror.bjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
-deb http://mirror.bjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
-deb http://mirror.bjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
-deb http://mirror.bjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
-deb-src http://mirror.bjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
-deb-src http://mirror.bjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
-deb-src http://mirror.bjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
-deb-src http://mirror.bjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
-deb-src http://mirror.bjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe 
+# 12.04--presice 14.04--trust
+deb http://mirror.bjtu.edu.cn/ubuntu/ trusty main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ trusty-backports main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ trusty-proposed main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ trusty-security main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ trusty-updates main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ trusty main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ trusty-backports main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ trusty-proposed main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ trusty-security main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ trusty-updates main multiverse restricted universe 
 
 

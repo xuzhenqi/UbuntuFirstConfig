@@ -25,19 +25,19 @@ sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc v
 sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
 # 2. fcitx using sougoupinyin
 
-# genymotion: Android virtual machine
-#http://www.genymotion.com/
-
 # input method config
 #1. im-switch
 #im-switch -s ibus
 #ibus-setup
 #2. im-config
+#need to log out
+
+# genymotion: Android virtual machine
+#http://www.genymotion.com/
 
 # download tools
 # follow the webpage: http://blog.csdn.net/luojiming1990/article/details/9078447 to complete the configuration
 sudo add-apt-repository ppa:plushuang-tw/uget-stable
-sudo add-apt-repository ppa:t-tujikawa/ppa
 sudo apt-get update
 sudo apt-get install uget aria2
 echo "Next: configure the uget to enable aria2 plugin"
