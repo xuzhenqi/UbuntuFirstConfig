@@ -42,13 +42,10 @@ sudo apt-get update
 sudo apt-get install uget aria2
 echo "Next: configure the uget to enable aria2 plugin"
 
-# firofox uninstall
-#echo 'firefox uninstall'
-#sudo apt-get remove firefox firefox*
-
 # vim config
 echo 'vim config'
 cp config/.vimrc ~/.vimrc
+cp config/.vim ~/
 
 # software upgrade
 sudo apt-get upgrade
@@ -56,6 +53,9 @@ sudo apt-get upgrade
 # github config:https://help.github.com/articles/set-up-git
 
 # install Matlab
+sudo mkdir /media/Matlab
+sudo mount -o loop [/Matlab-path.iso] /media/Matlab
+
 # install Matlab-support for linux
 sudo apt-get install matlab-support
 
@@ -81,6 +81,7 @@ sudo apt-get install samba samba-common
 sudo add-apt-repository ppa:ubuntu-wine/ppa
 sudo apt-get update
 sudo apt-get install wine1.7
+# sudo apt-get install wine1.6 #this can save a lot of time
 
 # gdb cpp stl support
 # http://sourceware.org/gdb/wiki/STLSupport
