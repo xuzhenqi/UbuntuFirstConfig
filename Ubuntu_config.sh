@@ -89,3 +89,8 @@ sudo apt-get install wine1.7
 # on line 19: from .printers ...
 # edit ~/.gdbinit
 # on line 6: comment this line.
+
+# Foxit Reader : wine Foxit Reader 6
+# Make FoxitReader as default:
+# sudo vim /usr/share/applications/defaults.list
+# find pdf and change evince to be Foxit Reader
