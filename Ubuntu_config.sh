@@ -16,6 +16,12 @@ sudo apt-get update
 echo 'software set up'
 sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc virtualbox git indicator-multiload python-pip gparted
 
+# local document search engine: recoll
+# http://www.lesbonscomptes.com/recoll/
+sudo apt-get install recoll
+# msword support
+sudo apt-get install antiword
+
 # goagent configure
 #1. Chromium:http://www.i7086.com/gugelanqichromeshezhigoagentyingyongtuwenjiaocheng
 #2. Firefox:https://code.google.com/p/goagent/wiki/FAQ  foxyproxy plugin
