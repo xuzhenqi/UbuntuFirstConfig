@@ -18,7 +18,8 @@ sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc v
 
 # local document search engine: recoll
 # http://www.lesbonscomptes.com/recoll/
-sudo apt-get install recoll
+#sudo apt-get install recoll # this one in Ubuntu Source is old
+# Download the newest one to index ppt files.
 # msword support
 sudo apt-get install antiword
 
