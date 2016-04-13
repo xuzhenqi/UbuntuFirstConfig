@@ -102,9 +102,5 @@ sudo apt-get install wine1.7
 # sudo vim /usr/share/applications/defaults.list
 # find pdf and change evince to be Foxit Reader
 
-# DMusic: http://wiki.linuxdeepin.com/index.php?title=%E6%B7%B1%E5%BA%A6%E9%9F%B3%E4%B9%90
-sudo apt-add-repository ppa:noobslab/deepin-sc
-sudo apt-get update
-sudo apt-get install  deepin-music-player
 
 # kuaipan:http://www.kuaipan.cn/d/linux
