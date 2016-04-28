@@ -29,10 +29,11 @@ sudo apt-get install antiword
 
 # Chinese input method
 # 1. ibus
-sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
+#sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
 # 2. fcitx using sougoupinyin
 
 # input method config
+sudo apt-get install im-switch
 #1. im-switch
 #im-switch -s ibus
 #ibus-setup
@@ -52,7 +53,7 @@ echo "Next: configure the uget to enable aria2 plugin"
 # vim config
 echo 'vim config'
 cp config/.vimrc ~/.vimrc
-cp config/.vim ~/
+cp -r config/.vim ~/
 
 # software upgrade
 sudo apt-get upgrade
@@ -104,3 +105,5 @@ sudo apt-get install wine1.7
 
 
 # kuaipan:http://www.kuaipan.cn/d/linux
+
+# install clion
