@@ -14,7 +14,7 @@ sudo apt-get update
 
 # software set up
 echo 'software set up'
-sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc virtualbox git indicator-multiload python-pip gparted
+sudo apt-get install chromium-browser flashplugin-installer vim subversion vlc virtualbox git indicator-multiload python-pip gparted sshfs nautilus-open-terminal
 
 # local document search engine: recoll
 # http://www.lesbonscomptes.com/recoll/
